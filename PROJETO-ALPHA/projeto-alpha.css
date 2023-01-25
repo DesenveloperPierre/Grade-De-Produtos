@@ -1,0 +1,314 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+     background: radial-gradient(circle at center, #f1f1fe, #d1d1d1);
+}
+
+/*Home*/
+
+#home{
+    display: inline-block;
+    background: rgb(24, 23, 23);
+    color: white;
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    border-bottom: 1px solid rgb(165, 155, 155);
+    font-weight: 600;
+    font-size: 60px ;
+    text-align: left;
+    padding: 6px;
+}
+
+#insta{
+    display: inline-block;
+    padding-left: 1040px;
+    padding-top: 5px;
+}
+
+.home{
+    text-decoration: none;
+    color: white;
+}
+
+
+/*Cabeçalho*/
+
+#titulo {
+    background: #000;
+    color: aliceblue;
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+    border: 3px solid rgba(192, 175, 175, 0.068);
+    font-family: fantasy;
+}
+
+
+/*Produtos*/
+
+.container{
+    min-height: 60vh;
+    padding: 50px;
+
+}
+
+.produtos{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.card{
+    width: 30%;
+    display: inline-block;
+    margin: 1% 1.5%;
+    padding: 15px
+}
+
+.imagens-tenis{
+    border-radius: 10px;
+    height: 300px;
+    width: 100%;
+    margin-bottom: 10px;
+    background-position: center;
+    background-size: cover;
+    box-shadow: rgba(107, 98, 98, 0.808) 10px 10px 10px;
+}
+
+#sneker1{
+    background-image: url("/img/SNEAKERS/tenis1.avif");
+}
+
+#sneker2 {
+    background-image: url("/img/SNEAKERS/tenis2.avif");
+}
+
+#sneker3 {
+    background-image: url("/img/SNEAKERS/tenis3.avif");
+}
+
+#sneker4 {
+    background-image: url("/img/SNEAKERS/tenis4.avif");
+}
+
+#sneker5 {
+    background-image: url("/img/SNEAKERS/tenis5.webp");
+}
+
+#sneker6 {
+    background-image: url("/img/SNEAKERS/tenis6.webp");
+}
+
+#sneker7 {
+    background-image: url("/img/SNEAKERS/tenis7.webp");
+}
+
+#sneker8 {
+    background-image: url("/img/SNEAKERS/tenis8.webp");
+}
+
+#sneker9 {
+    background-image: url("/img/SNEAKERS/tenis9.webp");
+}
+
+/*Produtos2*/
+
+.container {
+    min-height: 60vh;
+    padding: 50px;
+
+}
+
+.produtos {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.card {
+    width: 30%;
+    display: inline-block;
+    margin: 1% 1.5%;
+    padding: 15px
+}
+
+.imagens-caps {
+    border-radius: 10px;
+    height: 300px;
+    width: 100%;
+    margin-bottom: 10px;
+    background-position: center;
+    background-size: contain;
+    box-shadow: rgba(107, 98, 98, 0.808) 10px 10px 10px;
+}
+
+#cap1 {
+    background-image: url("/img/CAPS/cap1.webp");
+}
+
+#cap2 {
+    background-image: url("/img/CAPS/cap2.webp");
+}
+
+#cap3 {
+    background-image: url("/img/CAPS/cap3.webp");
+}
+
+#cap4 {
+    background-image: url("/img/CAPS/cap4.webp");
+}
+
+#cap5 {
+    background-image: url("/img/CAPS/cap5.webp");
+}
+
+#cap6 {
+    background-image: url("/img/CAPS/cap6.webp");
+}
+
+#cap7 {
+    background-image: url("/img/CAPS/cap7.webp");
+}
+
+#cap8 {
+    background-image: url("/img/CAPS/cap8.webp");
+}
+
+#cap9 {
+    background-image: url("/img/CAPS/cap9.webp");
+}
+
+/*Produtos3*/
+
+.container {
+    min-height: 60vh;
+    padding: 50px;
+
+}
+
+.produtos {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.card {
+    width: 30%;
+    display: inline-block;
+    margin: 1% 1.5%;
+    padding: 15px
+}
+
+.imagens-camisa {
+    border-radius: 10px;
+    height: 300px;
+    width: 100%;
+    margin-bottom: 10px;
+    background-position: center;
+    background-size: contain;
+    box-shadow: rgba(107, 98, 98, 0.808) 10px 10px 10px;
+}
+
+#camisa1 {
+    background-image: url("/img/T-SHIRTS/camisa1.jpg");
+}
+
+#camisa2 {
+    background-image: url("/img/T-SHIRTS/camisa2.jpg");
+}
+
+#camisa3 {
+    background-image: url("/img/T-SHIRTS/camisa3.jpg");
+}
+
+#camisa4 {
+    background-image: url("/img/T-SHIRTS/camisa4.jpg");
+}
+
+#camisa5 {
+    background-image: url("/img/T-SHIRTS/camisa5.jpg");
+}
+
+#camisa6 {
+    background-image: url("/img/T-SHIRTS/camisa6.jpg");
+}
+
+#camisa7 {
+    background-image: url("/img/T-SHIRTS/camisa7.jpg");
+}
+
+#camisa8 {
+    background-image: url("/img/T-SHIRTS/camisa8.jpg");
+}
+
+.card h3{
+    margin-bottom: 10px;
+    color:#000;
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+    padding-top: 20px;
+    padding-left: 6px;
+    font-size: 17.7px;
+}
+
+.card p {
+    font-family: sans-serif;
+    color: rgb(8, 8, 8);
+    padding: 8px;
+}
+.bold{
+    font-weight: 600;
+    font-weight: bold;
+}
+
+.bnt{
+    display: block;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: rgb(0, 0, 0);
+    color: #e9e2e2;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+
+.bnt:hover{
+    background: rgb(255, 255, 255);
+    color: #000;
+    transition: 1s;
+    border: 3px solid black;
+}
+
+/*Rodapé*/
+
+footer{
+    background: #000;
+    color: white;
+    width: 100%;
+    height: 200px;
+    border-top: 3px solid rgb(31, 29, 29);
+    text-align: center;
+    padding: 80px;
+}
+
+#contato{
+    text-align: right;
+    padding: 40px;
+    color: white;
+    text-decoration: none;
+    
+}
+
+
+
+
+
+
+
+
+
